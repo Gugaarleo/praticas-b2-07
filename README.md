@@ -21,13 +21,16 @@ A combinação de **Prometheus e Grafana** nos permite:
 ## Exercícios Propostos
 
 1. **Coleta de Métricas**:
-   Configurar o uso do `prometheus_flask_exporter`¹ para expor métricas da aplicação Flask ao Prometheus.
+Configurar o uso do `prometheus_flask_exporter`¹ para expor métricas da aplicação Flask ao Prometheus.
+
 2. **Conexão com Grafana**:
-   Configurar o Grafana para usar o Prometheus como fonte de dados².
-3. **Criação de um Dashboard**
-   Elaborar um dashboard simples no Grafana, que exiba ao menos três métricas das requisições HTTP, coletadas pela aplicação, como tempo de resposta, requisições com sucesso (status code 200) e requisições com erro (em nossa aplicação, status code 400).
+Configurar o Grafana para usar o Prometheus como fonte de dados².
+
+3. **Criação de um Dashboard**:
+Elaborar um dashboard simples no Grafana, que exiba ao menos três métricas das requisições HTTP, coletadas pela aplicação, como tempo de resposta, requisições com sucesso (status code 200) e requisições com erro (em nossa aplicação, status code 400).
 
 ¹[Documentação prometheus_flask_exporter](https://github.com/rycus86/prometheus_flask_exporter)
+
 ²[Documentação Integrando Prometheus e Grafana](https://grafana.com/docs/grafana/latest/datasources/prometheus/configure-prometheus-data-source/)
 
 ## Executando a Aplicação
